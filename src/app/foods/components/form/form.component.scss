@@ -1,0 +1,43 @@
+.father {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newFoodFather {
+    border: 1px solid gray;
+    margin: 1rem 1rem 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20rem;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    width: 7rem;
+    margin: 1rem;
+    font-family: Poppins;
+    font-weight: normal;
+}
+
+input {
+    width: 15rem;
+    margin: 0.5rem;
+}
