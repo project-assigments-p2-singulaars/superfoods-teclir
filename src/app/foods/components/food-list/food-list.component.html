@@ -1,0 +1,14 @@
+<div class="father">
+    <ul>
+        @for (food of foods(); track food.id) {
+            <ul class="card">
+                <img src="{{food.image}}" alt="{{food.name}}">
+                <div class="foodText">
+                <p>{{food.name}}</p>
+                <p>{{food.calories}} cal</p>
+                <button (click)="addToMenu(food)">Add to Menu</button>
+            </div>
+            </ul>
+        }
+        </ul>
+    </div>

@@ -1,0 +1,11 @@
+:host {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+:host img {
+    height: 25vh;
+}
